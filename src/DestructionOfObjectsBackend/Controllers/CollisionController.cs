@@ -17,6 +17,7 @@ namespace DestructionOfObjectsBackend.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         [HttpPost]
         public ActionResult<CollisionResponse> ProcessCollision(CollisionRequest request)
         {
