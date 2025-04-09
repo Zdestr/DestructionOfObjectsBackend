@@ -1,0 +1,6 @@
+@DestructionOfObjectsBackend_HostAddress = http://localhost:5083
+
+GET {{DestructionOfObjectsBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
